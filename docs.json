@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Prezence AI",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#951B81",
+    "light": "#F6EDF7",
+    "dark": "#2F0929"
   },
-  "favicon": "/favicon.svg",
+
   "navigation": {
     "tabs": [
       {
@@ -18,18 +18,35 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "about"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Core Features",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "core-features/conversation-management",
+              "core-features/ai-agents",
+              "core-features/pipeline-customization",
+              "core-features/lead-magnets",
+              "core-features/lead-scoring"
+            ]
+          },
+          {
+            "group": "Tutorials",
+            "pages": [
+              "tutorials/setup-guide",
+              "tutorials/icp-configuration",
+              "tutorials/custom-pipeline",
+              "tutorials/ai-agent-optimization"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "use-cases/marketing-agencies",
+              "use-cases/sales-teams",
+              "use-cases/consultants",
+              "use-cases/saas-companies"
             ]
           }
         ]
@@ -40,16 +57,47 @@
           {
             "group": "API Documentation",
             "pages": [
-              "api-reference/introduction"
+              "api-reference/introduction",
+              "api-reference/authentication"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoints/users",
+              "api-reference/endpoints/organizations",
+              "api-reference/endpoints/ai-agents",
+              "api-reference/endpoints/pipelines",
+              "api-reference/endpoints/leads",
+              "api-reference/endpoints/conversations"
+            ]
+          },
+          {
+            "group": "Integration",
+            "pages": [
+              "api-reference/integration/linkedin",
+              "api-reference/integration/ai-providers"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Help & Support",
+            "pages": [
+              "resources/faq",
+              "resources/troubleshooting",
+              "resources/best-practices"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "resources/glossary",
+              "resources/changelog",
+              "resources/roadmap"
             ]
           }
         ]
@@ -64,7 +112,7 @@
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://join.slack.com/t/prezence-ai/shared_invite/zt-370mvwfzn-y3o1fBJSl815ZacbTj~lWA",
           "icon": "slack"
         },
         {
@@ -76,9 +124,10 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/Logo gradient SVG.svg",
+    "dark": "/logo/Logo gradient Magnolia White SVG 1600x400.svg"
   },
+  "favicon": "/logo/Icon Gradient SVG.svg",
   "navbar": {
     "links": [
       {
