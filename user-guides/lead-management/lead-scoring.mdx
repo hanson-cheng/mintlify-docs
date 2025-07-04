@@ -43,4 +43,38 @@ Create a [Custom View](/user-guides/lead-management/leads-dashboard) that automa
 
 When you see a lead with a high score, you can be more confident in investing time to personalize your outreach message. You know they're a good fit, so the extra effort is more likely to pay off.
 
-By leveraging automated lead scoring, you can move away from guessing and start making data-driven decisions about who to engage with next. This concludes our Lead Management section. Next, let's explore the [Conversation Hub](/user-guides/engagement-conversations/conversation-hub).
+By leveraging automated lead scoring, you can move away from guessing and start making data-driven decisions about who to engage with next.
+
+## Video Tutorial: Setting Up AI Lead Scoring Agent
+
+<video src="https://www.loom.com/embed/03e143483ba444de88a02fc587386bd6" />
+
+### How to Configure Your Lead Scoring Agent
+
+1. **Prerequisites**:
+   - You must have your LLM API keys set up (see [LLM Configuration](/user-guides/settings-administration/llm-configuration))
+   - Lead scoring is most valuable when you have many connections/leads to prioritize
+
+2. **Selecting Your LLM Provider**:
+   - Choose your preferred provider (OpenAI, Anthropic, Open Router)
+   - For cost efficiency, consider using Open Router with models like Maverick
+   - Copy the model name from Open Router and paste it into the model field
+
+3. **Understanding the Scoring System**:
+   - Leads are scored on a scale of 0-100
+   - Higher scores (60+) indicate better alignment with your ICP
+   - Lower scores (<40) indicate leads that are less likely to be a good fit
+
+4. **Configuring the Agent**:
+   - The system uses dynamic variables to input lead information
+   - You can test your agent configuration before making it live
+   - For efficiency, the system uses only headline information to avoid excessive profile views
+
+5. **Using Lead Scores**:
+   - Once the agent is live, leads will be automatically scored
+   - In the Conversations view, you can sort leads by score (high to low)
+   - Prioritize your outreach to the highest-scoring leads first
+
+This lead scoring system helps you focus your time and energy on the most promising prospects, especially when dealing with large numbers of potential leads.
+
+This concludes our Lead Management section. Next, let's explore the [Conversation Hub](/user-guides/engagement-conversations/conversation-hub).
