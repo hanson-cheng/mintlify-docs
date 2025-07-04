@@ -129,14 +129,15 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.prezence.ai"
+      "href": "https://app.prezence.ai/dashboard"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/prezenceai",
-      "github": "https://github.com/prezenceai",
-      "linkedin": "https://linkedin.com/company/prezenceai"
+      "linkedin": "https://www.linkedin.com/company/prezence-ai/",
+      "youtube": "https://www.youtube.com/hansoncheng",
+      "instagram": "https://www.instagram.com/hansonchengg",
+      "website": "https://www.linkedin.com/in/hansoncheng/"
     }
   }
 }
