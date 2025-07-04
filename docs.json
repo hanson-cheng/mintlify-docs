@@ -52,36 +52,6 @@
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction",
-              "api-reference/authentication"
-            ]
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api-reference/endpoints/users",
-              "api-reference/endpoints/organizations",
-              "api-reference/endpoints/ai-agents",
-              "api-reference/endpoints/pipelines",
-              "api-reference/endpoints/leads",
-              "api-reference/endpoints/conversations"
-            ]
-          },
-          {
-            "group": "Integration",
-            "pages": [
-              "api-reference/integration/linkedin",
-              "api-reference/integration/ai-providers"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Resources",
         "groups": [
           {
@@ -114,11 +84,6 @@
           "anchor": "Community",
           "href": "https://join.slack.com/t/prezence-ai/shared_invite/zt-370mvwfzn-y3o1fBJSl815ZacbTj~lWA",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
