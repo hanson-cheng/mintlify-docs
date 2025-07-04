@@ -7,67 +7,93 @@
     "light": "#F6EDF7",
     "dark": "#2F0929"
   },
-
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Introduction",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart",
-              "about"
-            ]
-          },
-          {
-            "group": "Core Features",
-            "pages": [
-              "core-features/conversation-management",
-              "core-features/ai-agents",
-              "core-features/pipeline-customization",
-              "core-features/lead-magnets",
-              "core-features/lead-scoring"
-            ]
-          },
-          {
-            "group": "Tutorials",
-            "pages": [
-              "tutorials/setup-guide",
-              "tutorials/icp-configuration",
-              "tutorials/custom-pipeline",
-              "tutorials/ai-agent-optimization"
-            ]
-          },
-          {
-            "group": "Use Cases",
-            "pages": [
-              "use-cases/marketing-agencies",
-              "use-cases/sales-teams",
-              "use-cases/consultants",
-              "use-cases/saas-companies"
+              "introduction/what-is-prezence-ai",
+              "introduction/getting-started",
+              "introduction/core-concepts"
             ]
           }
         ]
       },
       {
-        "tab": "Resources",
+        "tab": "User Guides",
         "groups": [
           {
-            "group": "Help & Support",
+            "group": "Account Setup",
             "pages": [
-              "resources/faq",
-              "resources/troubleshooting",
-              "resources/best-practices"
+              "user-guides/account-setup/creating-your-account",
+              "user-guides/account-setup/connecting-linkedin",
+              "user-guides/account-setup/ideal-customer-profile"
             ]
           },
           {
-            "group": "Reference",
+            "group": "Automation Campaigns",
             "pages": [
-              "resources/glossary",
-              "resources/changelog",
-              "resources/roadmap"
+              "user-guides/automation-campaigns/search-campaigns",
+              "user-guides/automation-campaigns/lead-magnets",
+              "user-guides/automation-campaigns/comment-monitoring"
+            ]
+          },
+          {
+            "group": "Lead Management",
+            "pages": [
+              "user-guides/lead-management/leads-dashboard",
+              "user-guides/lead-management/importing-leads",
+              "user-guides/lead-management/managing-pipeline-stages",
+              "user-guides/lead-management/lead-scoring"
+            ]
+          },
+          {
+            "group": "Engagement & Conversations",
+            "pages": [
+              "user-guides/engagement-conversations/linkedin-activity",
+              "user-guides/engagement-conversations/conversation-hub"
+            ]
+          },
+          {
+            "group": "Settings & Administration",
+            "pages": [
+              "user-guides/settings-administration/profile-preferences",
+              "user-guides/settings-administration/organization-management",
+              "user-guides/settings-administration/subscription-billing",
+              "user-guides/settings-administration/llm-configuration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Developer Docs",
+        "groups": [
+          {
+            "group": "Development",
+            "pages": [
+              "developer-docs/project-structure",
+              "developer-docs/development-setup"
+            ]
+          },
+          {
+            "group": "API",
+            "pages": [
+              "developer-docs/authentication",
+              "developer-docs/api-reference"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Video Tutorials",
+        "groups": [
+          {
+            "group": "Videos",
+            "pages": [
+              "video-tutorials/video-library"
             ]
           }
         ]

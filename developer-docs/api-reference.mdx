@@ -1,0 +1,22 @@
+---
+title: API Reference
+description: Documentation for the main Prezence AI API endpoints.
+---
+
+This is a high-level overview of the key API endpoints. For full details, please refer to the source code in `/frontend/app/api`.
+
+### Lead Management
+
+-   `POST /api/leads`: Create a new lead.
+-   `GET /api/leads`: Fetch a list of leads with optional filters.
+-   `PUT /api/leads/[leadId]`: Update a lead's details or pipeline stage.
+
+### Conversation
+
+-   `GET /api/conversations`: Get all conversations for the current user.
+-   `POST /api/conversations/[conversationId]/messages`: Send a new message.
+
+### LinkedIn Integration
+
+-   `POST /api/linkedin/accounts`: Connect a new LinkedIn account.
+-   `POST /api/linkedin-webhook`: Webhook endpoint to receive real-time events from the LinkedIn integration.

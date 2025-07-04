@@ -1,0 +1,18 @@
+---
+title: Authentication
+description: How authentication is handled in Prezence AI.
+---
+
+Authentication is managed using **Supabase Auth**, which provides a robust and secure solution for user management and access control.
+
+## The Auth Flow
+
+1.  **Sign-up/Login**: Users sign up or log in using email and password. Supabase handles the secure storage of credentials and issues a JSON Web Token (JWT).
+2.  **JWT Handling**: The JWT is stored securely in the browser's cookies.
+3.  **Authenticated Requests**: For requests to our backend API routes, the JWT is sent in the `Authorization` header.
+4.  **Server-Side Validation**: Our Next.js API routes use the Supabase client library to validate the JWT and identify the user, ensuring they can only access their own data.
+5.  **Row-Level Security (RLS)**: In the Supabase database, we use RLS policies to enforce data access rules at the database level. This is a critical security layer that ensures a user can *never* access data belonging to another user, even in the case of an application bug.
+
+## Development Bypass
+
+For ease of local development, you can set `NEXT_PUBLIC_BYPASS_AUTH=true` in your `.env.local` file. This will disable authentication checks, allowing you to work on UI components and features without needing to be logged in.

@@ -1,0 +1,19 @@
+---
+title: Project Structure
+description: An overview of the Prezence AI codebase architecture.
+---
+
+The Prezence AI application is a modern web app built with Next.js. Here's a breakdown of the key directories:
+
+-   **/frontend/app**: Contains all the pages and API routes, following the Next.js App Router paradigm.
+    -   **/api**: All backend API endpoints live here.
+    -   **/(dashboard)/**: Routes protected by authentication.
+-   **/frontend/components**: Reusable React components used throughout the application.
+    -   **/ui**: Generic, unstyled components from shadcn/ui.
+    -   **/shared**: Components like the header and sidebar.
+-   **/frontend/lib**: Core logic, utility functions, and third-party API clients.
+    -   **/supabase**: Supabase client and server helpers.
+    -   **/store**: Zustand state management setup.
+-   **/supabase**: Configuration and database migrations for the Supabase backend.
+    -   **/migrations**: SQL files for database schema changes.
+    -   **/functions**: Edge functions for serverless logic.
